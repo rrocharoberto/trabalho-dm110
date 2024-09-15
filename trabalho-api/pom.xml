@@ -1,9 +1,8 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
-  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
                       http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
- 
+
   <name>Trabalho de DM 110 - Rest API</name>
   <description>Rest API project of DM 110</description>
   <properties></properties>
@@ -18,9 +17,13 @@
   <packaging>jar</packaging>
 
   <dependencies>
-	<dependency>
-		<groupId>javax</groupId>
-		<artifactId>javaee-api</artifactId>
-	</dependency>
+		<dependency>
+			<groupId>jakarta.platform</groupId>
+			<artifactId>jakarta.jakartaee-api</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+		</dependency>
   </dependencies>
 </project>
